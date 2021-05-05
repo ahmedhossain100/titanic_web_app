@@ -18,7 +18,7 @@ import pickle
 # Model Building 
 # load the model from disk
 
-filename = r'I:\Research\Streamlit\Titanic\models\finalized_model_rf.sav'
+filename = r'finalized_model_rf.sav'
 loaded_model_rf = pickle.load(open(filename, 'rb')) 
 
 #------------------------------------------------------------------------------#
